@@ -1,0 +1,22 @@
+{
+  "name": "genpark-agentic-commerce-merchant-smart-payment-routing-least-cost-skill",
+  "version": "1.0.0",
+  "description": "Global payment gateway intelligent routing: card BIN, currency, 3DS2 friction, and interchange-plus least-cost optimization.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "route_smart_payment_least_cost",
+      "description": "Global payment gateway intelligent routing: card BIN, currency, 3DS2 friction, and interchange-plus least-cost optimization.",
+      "sample_input": {
+        "transaction_amount": 450.0,
+        "currency": "USD",
+        "card_scheme": "VISA",
+        "is_cross_border": true
+      }
+    }
+  ]
+}
